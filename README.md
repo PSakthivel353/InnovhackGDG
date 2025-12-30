@@ -1,5 +1,7 @@
 Scam Detection Web Platform
+
 Team Name: Hardway SQL
+
 Hackathon: InnovHack – GDG Open Innovation
 
 
