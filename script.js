@@ -5,7 +5,7 @@ const textarea = document.getElementById("contentInput");
 const resultDiv = document.getElementById("resultDiv");
 
 // YOUR WORKING Gemini API Key
-const GEMINI_API_KEY = "AIzaSyAb8xNkHFaaXYcAvm65WCevDcWAbz4g1WI"; //AIzaSyBdiMvC6sFq01WqPsLLYJqGRLGAjIBE2F0
+const GEMINI_API_KEY = "Your Gemini API key";
 
 
 function extractJSON(text) {
@@ -248,4 +248,5 @@ textarea.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
     button.click();
   }
+
 });
